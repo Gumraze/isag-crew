@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 450px;
+  align-items: center;
+  background-color: #808e74;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 850px;
+  margin-top: 60px;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.main-box div {
+  display: flex;
+}
+
+.main img {
+  height: 200px;
+  width: auto;
+  padding: 40px 0px;
+}
