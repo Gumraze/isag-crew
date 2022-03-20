@@ -54,7 +54,7 @@
   height: 300px;
   width: 340px;
   padding-top: 10px;
-  font-family: "Song Myung", serif;
+  font-family: "Yeon Sung", cursive;
 }
 
 .inform-box__text i {
@@ -71,6 +71,7 @@
 
 .inform-box__text p {
   font-size: 18px;
+  padding-bottom: 3px;
 }
 
 .part-text {
