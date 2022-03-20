@@ -22,7 +22,7 @@
 .intro img {
   height: 200px;
   width: auto;
-  padding: 40px 0px;
+  padding: 40px 0px 20px 0px;
 }
 
 #subject {
@@ -55,6 +55,7 @@
 .act-box span {
   font-size: 30px;
   font-weight: 600;
+  padding-right: 10px;
 }
 
 .act-box p {
@@ -64,4 +65,33 @@
 .act-box i {
   color: wheat;
   padding-right: 5px;
+}
+
+.act-box:last-child {
+  display: flex;
+}
+
+#next {
+  display: flex;
+  justify-content: right;
+  width: 330px;
+  padding-top: 10px;
+}
+
+#next input {
+  background-color: #cd9c00;
+  height: 30px;
+  width: 70px;
+  border: 2px solid wheat;
+  border-radius: 13px;
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+#next i {
+  position: relative;
+  top: 15px;
+  color: wheat;
+  padding-right: 8px;
 }
