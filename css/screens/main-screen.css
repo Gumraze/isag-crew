@@ -3,7 +3,6 @@
 .main {
   display: flex;
   flex-direction: column;
-
   height: 100%;
   align-items: center;
   background-color: #808e74;
@@ -14,7 +13,7 @@
   flex-direction: column;
   height: 350px;
   width: 350px;
-  margin-top: 30px;
+  margin-top: 120px;
   align-items: center;
   border: 2px solid white;
 }
