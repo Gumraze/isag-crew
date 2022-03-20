@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Song+Myung&family=Yeon+Sung&display=swap");
+
+.inform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-color: #808e74;
+}
+
+.inform-box {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 400px;
+  margin-top: 30px;
+  align-items: center;
+  border: 2px solid #808e74;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.inform img {
+  height: 200px;
+  width: auto;
+  padding: 40px 0px 20px 0px;
+}
+
+.inform-box__sub {
+  display: flex;
+  font-family: "Song Myung", serif;
+  width: 380px;
+  justify-content: right;
+  padding: 10px 10px 10px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.inform-box__img {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 400px;
+  background-color: #808e74;
+  border-radius: 40px 0px 40px 0px;
+}
+
+.inform-box__text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-evenly;
+  height: 300px;
+  width: 340px;
+  padding-top: 10px;
+  font-family: "Song Myung", serif;
+}
+
+.inform-box__text i {
+  position: relative;
+  bottom: 3px;
+  color: crimson;
+  padding-right: 5px;
+}
+
+.inform-box__text span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.inform-box__text p {
+  font-size: 18px;
+}
+
+.part-text {
+  padding-top: 5px;
+}
