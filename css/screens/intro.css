@@ -16,7 +16,8 @@
   width: 400px;
   margin-top: 30px;
   align-items: center;
-  border: 2px solid white;
+  border: 3px solid white;
+  border-radius: 8px;
 }
 
 .intro img {
@@ -55,7 +56,7 @@
 .act-box span {
   font-size: 30px;
   font-weight: 600;
-  padding-right: 20px;
+  padding-right: 15px;
 }
 
 .act-box p {
@@ -63,6 +64,8 @@
 }
 
 .act-box i {
+  position: relative;
+  top: 3px;
   color: wheat;
   padding-right: 5px;
 }
