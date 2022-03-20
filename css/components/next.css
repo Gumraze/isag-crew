@@ -1,9 +1,8 @@
 .next {
   display: flex;
-  justify-content: right;
-  width: 100%;
+  position: relative;
+  left: 125px;
   padding-top: 10px;
-  padding-right: 30px;
 }
 
 .next input {
