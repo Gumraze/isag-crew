@@ -6,7 +6,8 @@
 /*@import "no-mobile.css";
 
 /* Screens */
-@import "main-screen.css";
+@import "screens/main-screen.css";
+@import "screens/intro.css";
 
 body {
   height: 100vh;
