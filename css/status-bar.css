@@ -4,6 +4,7 @@
   padding: 3px 0px;
   width: 100%;
   background-color: white;
+  font-size: 14px;
 }
 
 .status-bar__column {
@@ -12,13 +13,17 @@
 
 .status-bar__column:first-child span {
   margin-right: 5px;
+  position: relative;
+  bottom: 1px;
 }
+
 .status-bar__column:nth-child(2) {
   display: flex;
   position: relative;
-  top: 2px;
+  top: 5px;
   justify-content: center;
 }
+
 .status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
