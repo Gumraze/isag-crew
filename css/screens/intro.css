@@ -48,14 +48,13 @@
 
 .act-box {
   display: flex;
-  padding-left: 20px;
+  padding-left: 15px;
   font-family: "Yeon Sung", cursive;
 }
 
 .act-box span {
   font-size: 30px;
   font-weight: 600;
-  padding-right: 15px;
 }
 
 .act-box:last-child span {
@@ -79,4 +78,5 @@
 
 .act-box__animation-box {
   display: flex;
+  width: 33px;
 }
