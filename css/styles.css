@@ -5,6 +5,7 @@
 @import "status-bar.css";
 /*@import "no-mobile.css";*/
 @import "components/next.css";
+@import "components/anmation.css";
 
 /* Screens */
 @import "screens/main-screen.css";

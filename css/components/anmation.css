@@ -1,0 +1,22 @@
+@keyframes egg-rotate {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+.act-box i {
+  animation: egg-rotate 0.5s ease-in-out infinite;
+}
+
+.bolt {
+  position: relative;
+  right: 24px;
+  top: 4px;
+  color: #ffc100;
+}

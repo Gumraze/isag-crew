@@ -47,6 +47,7 @@
 }
 
 .act-box {
+  display: flex;
   padding-left: 20px;
   font-family: "Yeon Sung", cursive;
 }
@@ -58,10 +59,10 @@
 }
 
 .act-box p {
-  padding: 3px 0px 0px 35px;
+  padding-top: 3px;
 }
 
-.act-box i {
+.act-box .fa-egg {
   position: relative;
   top: 3px;
   color: wheat;
@@ -69,5 +70,9 @@
 }
 
 .act-box:last-child {
+  display: flex;
+}
+
+.act-box__animation-box {
   display: flex;
 }
