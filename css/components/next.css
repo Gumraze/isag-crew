@@ -25,9 +25,10 @@
 
 .next-inform input {
   width: 90px;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 600;
   color: black;
+  font-family: "Yeon Sung", cursive;
 }
 
 .next-inform i {

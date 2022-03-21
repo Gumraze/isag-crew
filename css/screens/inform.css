@@ -28,10 +28,11 @@
 
 .inform-box__sub {
   position: relative;
-  left: 110px;
+  width: 150px;
+  left: 120px;
   font-family: "Song Myung", serif;
   padding: 10px 0px 10px 0px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
