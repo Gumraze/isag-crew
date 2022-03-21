@@ -58,6 +58,10 @@
   padding-right: 15px;
 }
 
+.act-box:last-child span {
+  font-size: 28px;
+}
+
 .act-box p {
   padding-top: 3px;
 }
